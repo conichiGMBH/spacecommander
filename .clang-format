@@ -59,13 +59,13 @@ IndentWidth:     4
 TabWidth:        8
 UseTab:          Never
 BreakBeforeBraces: Custom
-BraceWrapping: 
+BraceWrapping:
     AfterClass: true
     AfterControlStatement: false
     AfterEnum: false
-    AfterFunction: true
-    AfterNamespace: true
-    AfterObjCDeclaration: true
+    AfterFunction: false
+    AfterNamespace: false
+    AfterObjCDeclaration: false
     AfterStruct: false
     AfterUnion: false
     BeforeCatch: false
@@ -87,4 +87,3 @@ ForEachMacros:   [ foreach, Q_FOREACH, BOOST_FOREACH ]
 SpaceBeforeParens: ControlStatements
 DisableFormat:   false
 ...
-
